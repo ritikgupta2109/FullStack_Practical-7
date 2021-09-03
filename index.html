@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-7</title>
+    <style>
+        .header{
+            color: white;
+            text-align: center;
+            margin: 10px;
+            background-color: grey;
+            height: 40px;
+            width: 98%;
+            line-height: 5px;
+            padding: 5px;
+        }
+        .banner{
+            color: white;
+            background-color: aqua;
+            height: 50vh;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            line-height: 40vh;
+        }
+        .circle{
+            background-color: orange;
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            display: inline-flex;
+            margin: 20px;
+        }
+        .main-content{
+            color: white;
+            background-color: grey;
+            text-align: center;
+            width: 50%;
+            line-height: 600px;
+            float: left;
+            margin: 10px;
+        }
+        .article{
+            color: white;
+            background-color: rgb(241, 60, 28);
+            width: 47%;
+            height: 200px;
+            line-height: 150px;
+            float: right;
+            margin-right: 0;
+            margin-left: 0;
+            margin: 10px;
+        }
+        .sec-2::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        #rect1{
+            background-color: rgb(241, 77, 48);
+            width:23% ;
+            height: 600px;
+            float: left;
+            text-align: center;
+            margin: 10px;
+            margin-left: 30px;
+            border-radius: 10px;
+        }
+        #rect2{
+            background-color: rgb(241, 77, 48);
+            width:23% ;
+            height: 600px;
+            margin: 10px;
+            float: left;
+            text-align: center;
+            border-radius: 10px;
+        }
+        #rect3{
+            background-color: rgb(241, 77, 48);
+            width:23% ;
+            height: 600px;
+            margin: 10px;
+            float: left;
+            text-align: center;
+            border-radius: 10px;
+        }
+        #rect4{
+            background-color: rgb(241, 77, 48);
+            width:23% ;
+            height: 600px;
+            margin: 10px;
+            margin-right: 0;
+            float: left;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .sec-3{
+            text-align: center;
+            margin: 10px;
+        }
+        .footer{
+            text-align: center;
+            background-color:violet;
+            margin: 10px;
+            width: 98%;
+            padding: 5px;
+            height: 40px;
+            line-height: 5px;
+            color: white;
+        }
+        .layout{
+            background-color: white;
+            border: 5px solid grey;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="header">
+            <h2>Header</h2> 
+        </div>
+        <div class="banner">
+                <h1>Banner</h1>
+        </div>
+        <div class="sec-1" style="text-align: center;">
+            <h1 style="margin-bottom: 0px;">Section-1</h1>
+                <div class="circle">
+    
+                </div>
+                <div class="circle">
+    
+                </div>
+                <div class="circle">
+    
+                </div>
+                <div class="circle">
+    
+        </div>
+        <h1 style="text-align: center;">Section-2</h1>
+        <div class="sec-2">
+            <div class="main-content">
+                <h1>Main content</h1>
+            </div>
+            <div >
+                <div  class="article">
+                    <h1>Article-1</h1>
+                </div>
+                <div  class="article">
+                    <h1>Article-2</h1>
+                </div>
+                <div  class="article" >
+                    <h1>Article-3</h1>
+                </div>
+            </div>    
+        </div> 
+        <h1 style="text-align: center;">Section-3</h1>  
+        <div class="sec-3" >
+            <div id="rect1">
+    
+            </div>
+            <div id="rect2">
+    
+            </div>
+            <div id="rect3">
+    
+            </div>
+            <div id="rect4"  >
+    
+            </div>
+        </div> 
+        <h1 style="text-align: center;">Section-4</h1>
+        <div class="footer">
+            <h2>Footer</h2>
+        </div>
+    </div>
+    
+</body>
+</html>
